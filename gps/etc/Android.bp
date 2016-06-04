@@ -35,12 +35,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "xtwifi.conf",
-    vendor: true,
-    src: "xtwifi.conf",
-}
-
-prebuilt_etc {
     name: "gnss@2.0-base.policy",
     vendor: true,
     sub_dir: "seccomp_policy",

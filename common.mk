@@ -120,8 +120,7 @@ PRODUCT_PACKAGES += \
     gps.conf \
     izat.conf \
     lowi.conf \
-    sap.conf \
-    xtwifi.conf
+    sap.conf
 
 # Health
 PRODUCT_PACKAGES += \
