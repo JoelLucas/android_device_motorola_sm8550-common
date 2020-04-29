@@ -59,7 +59,6 @@ persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
 persist.vendor.data.qmipriod_load=1
 persist.vendor.data.shsusr_load=1
 persist.vendor.radio.atfwd.start=true
-ro.telephony.default_network=33,33
 telephony.lteOnCdmaDevice=1
 
 # RTT
