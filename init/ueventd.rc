@@ -397,6 +397,9 @@ subsystem mem_buf_vm
 # UWB permissions
 /dev/uci                  0660    uwb         uwb
 
+# eSE permissions
+/dev/st54spi_gpio         0660   system     system
+
 # UIO devices
 /dev/uio0                 0660   system     system
 /dev/uio1                 0660   system     system
