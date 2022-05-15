@@ -3,34 +3,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Partitions
-PRODUCT_PACKAGES += \
-    vendor_bt_firmware_mountpoint \
-    vendor_dsp_mountpoint \
-    vendor_firmware_mnt_mountpoint \
-    vendor_fsg_mountpoint \
-    vendor_super_fsg_mountpoint \
-    vendor_super_modem_mountpoint
-
-PRODUCT_USE_DYNAMIC_PARTITIONS := true
-
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
-PRODUCT_ENFORCE_RRO_TARGETS := *
-
-PRODUCT_PACKAGES += \
-    NcmTetheringOverlay \
-    FrameworksResCommon_Sys \
-    SystemUIResCommon_Sys \
-    TelephonyResCommon_Sys \
-    WifiResCommon_Sys \
-    FrameworksResTarget \
-    WifiResTarget
+# Enforce generic ramdisk allow list
+$(call inherit-product, $(SRC_TARGET_DIR)/product/generic_ramdisk.mk)
 
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
@@ -54,6 +31,11 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# Boot control
+PRODUCT_PACKAGES += \
+    android.hardware.boot-service.qti \
+    android.hardware.boot-service.qti.recovery
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.1-impl \
@@ -65,6 +47,9 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
     audioadsprpcd \
+    lib_bt_aptx \
+    lib_bt_ble \
+    lib_bt_bundle \
     libagm_compress_plugin \
     libagm_mixer_plugin \
     libagm_pcm_plugin \
@@ -100,17 +85,6 @@ PRODUCT_COPY_FILES += \
 $(call soong_config_set_bool,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
 $(call soong_config_set,qtiaudio,pal_spkr_protection_path,/mnt/vendor/persist/factory/audio/audio.cal)
 
-# Bluetooth
-PRODUCT_PACKAGES += \
-    lib_bt_aptx \
-    lib_bt_ble \
-    lib_bt_bundle
-
-# Boot control
-PRODUCT_PACKAGES += \
-    android.hardware.boot-service.qti \
-    android.hardware.boot-service.qti.recovery
-
 # Charger
 WITH_LINEAGE_CHARGER := false
 
@@ -129,10 +103,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
-# Enforce generic ramdisk allow list
-$(call inherit-product, $(SRC_TARGET_DIR)/product/generic_ramdisk.mk)
-
-# Fastboot
+# fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
 
@@ -196,8 +167,7 @@ PRODUCT_PACKAGES += \
     android.hardware.hardware_keystore.xml
 
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.keystore.app_attest_key.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.keystore.app_attest_key.xml \
-    frameworks/native/data/etc/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml
+    frameworks/native/data/etc/android.hardware.keystore.app_attest_key.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.keystore.app_attest_key.xml
 
 # Lineage Health
 PRODUCT_PACKAGES += \
@@ -236,6 +206,33 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MotoActions \
     MotoCommonOverlay
+
+# Mountpoints
+PRODUCT_PACKAGES += \
+    vendor_bt_firmware_mountpoint \
+    vendor_dsp_mountpoint \
+    vendor_firmware_mnt_mountpoint \
+    vendor_fsg_mountpoint \
+    vendor_super_fsg_mountpoint \
+    vendor_super_modem_mountpoint
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
+PRODUCT_PACKAGES += \
+    FrameworksResCommon_Sys \
+    SystemUIResCommon_Sys \
+    TelephonyResCommon_Sys \
+    WifiResCommon_Sys \
+    FrameworksResTarget \
+    NcmTetheringOverlay \
+    WifiResTarget
+
+# Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -383,8 +380,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh
 
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/qcom/opensource/usb/etc
+PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/usb/etc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/usb_compositions.conf:$(TARGET_COPY_OUT_ODM)/etc/usb_compositions.conf
