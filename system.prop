@@ -47,9 +47,6 @@ ro.media.recorder-max-base-layer-fps=60
 # Netmgrd
 persist.vendor.data.mode=concurrent
 
-# NFC
-ro.nfc.port=I2C
-
 # Radio
 persist.vendor.data.qmipriod_load=1
 persist.vendor.data.shsusr_load=1
