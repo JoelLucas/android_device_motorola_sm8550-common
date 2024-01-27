@@ -50,9 +50,6 @@ persist.vendor.data.mode=concurrent
 # NFC
 ro.nfc.port=I2C
 
-# Perf
-persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
-
 # Radio
 persist.vendor.data.qmipriod_load=1
 persist.vendor.data.shsusr_load=1
