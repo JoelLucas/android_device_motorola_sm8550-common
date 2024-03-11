@@ -553,6 +553,7 @@ vendor/lib64/libkernelmanager.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 vendor/lib64/libllvm-qgl.so
+vendor/lib64/vendor.qti.qspmhal@1.0.so
 
 # Graphics - Adreno firmware
 vendor/gpu/kbc/sequence_manifest.bin
@@ -821,30 +822,6 @@ vendor/lib64/libperipheral_client.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
 
-# Perf
-vendor/bin/hw/vendor.qti.hardware.perf-hal-service
-vendor/etc/init/vendor.qti.hardware.perf-hal-service.rc
-vendor/etc/perf/avcsysnodesconfigs.xml
-vendor/etc/perf/commonresourceconfigs.xml
-vendor/etc/perf/commonsysnodesconfigs.xml
-vendor/etc/perf/perfboostsconfig.xml
-vendor/etc/perf/perfconfigstore.xml
-vendor/etc/perf/powerhint.xml
-vendor/etc/perf/targetavcsysnodesconfigs.xml
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml
-vendor/etc/perf/targetsysnodesconfigs.xml
-vendor/etc/perf/testcommonresourceconfigs.xml
-vendor/etc/perf/testtargetresourceconfigs.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml
-vendor/lib64/libperfconfig.so
-vendor/lib64/libperfgluelayer.so
-vendor/lib64/libperfioctl.so
-vendor/lib64/libqti-perfd-client.so
-vendor/lib64/libqti-perfd.so
-vendor/lib64/libqti-util.so
-vendor/lib64/libqti-utils.so
-
 # Power-off alarm - from pong - TKQ1.221220.001-2309061933
 product/app/PowerOffAlarm/PowerOffAlarm.apk|5ae835ca1d1720cfb2aa1c66f0c2c523efabf6d9
 system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar|b9afec1739e5c14a69013c708a0a094d705ee899
@@ -934,13 +911,6 @@ vendor/lib64/librpmb.so
 vendor/lib64/libspl.so
 vendor/lib64/libssd.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
-
-# QSPM
-vendor/bin/vendor.qti.qspmhal@1.0-service
-vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
-vendor/etc/seccomp_policy/qspm.policy
-vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
-vendor/lib64/vendor.qti.qspmhal@1.0.so
 
 # RemoteFS
 vendor/bin/rmt_storage
@@ -1216,15 +1186,6 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/bin/sec_nvm
 vendor/bin/spdaemon
 vendor/etc/init/init.spdaemon.rc
-
-# SPU
-vendor/bin/hw/vendor.qti.spu@1.1-service
-vendor/bin/hw/vendor.qti.spu@2.0-service
-vendor/etc/init/init.spuservice.rc
-vendor/etc/init/init.vendor.qti.spu@1.1-service.rc
-vendor/lib64/vendor.qti.spu@1.0.so
-vendor/lib64/vendor.qti.spu@1.1.so
-vendor/lib64/vendor.qti.spu@2.0.so
 
 # TFTP
 vendor/bin/tftp_server
