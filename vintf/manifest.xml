@@ -221,17 +221,6 @@
         <transport>hwbinder</transport>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.qspmhal</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IQspmhal/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.spu</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.1::ISPUManager/default</fqname>
-        <fqname>@2.0::ISPUManager/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.zui.hardware.ifaa</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IIFAADevice/default</fqname>
