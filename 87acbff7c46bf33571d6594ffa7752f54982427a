@@ -16,6 +16,24 @@
       "message": "`android::hardware::media::c2::V1_0::utils::objcpy(android::hardware::media::c2::V1_0::WorkBundle*, std::__1::list\u003cstd::__1::unique_ptr\u003cC2Work, std::__1::default_delete\u003cC2Work\u003e \u003e, std::__1::allocator\u003cstd::__1::unique_ptr\u003cC2Work, std::__1::default_delete\u003cC2Work\u003e \u003e \u003e \u003e const\u0026, android::hardware::media::c2::V1_0::utils::BufferPoolSender*)`\nDoesn\u0027t look like something you can stub like that",
       "revId": "87acbff7c46bf33571d6594ffa7752f54982427a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c12d6e23_7d78f3ef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-04-09T11:45:26Z",
+      "side": 1,
+      "message": "It did fix crashing for me though, or is there a better solution for this issue?",
+      "parentUuid": "cf82be32_22404535",
+      "revId": "87acbff7c46bf33571d6594ffa7752f54982427a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
