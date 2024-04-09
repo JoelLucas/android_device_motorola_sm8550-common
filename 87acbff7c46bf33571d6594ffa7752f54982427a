@@ -34,6 +34,24 @@
       "parentUuid": "cf82be32_22404535",
       "revId": "87acbff7c46bf33571d6594ffa7752f54982427a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a71ebe60_424c5ce0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-04-09T11:47:12Z",
+      "side": 1,
+      "message": "on stock ROM, that symbol is found in libcodec2_hidl@1.2.so but it isn\u0027t present on source built",
+      "parentUuid": "c12d6e23_7d78f3ef",
+      "revId": "87acbff7c46bf33571d6594ffa7752f54982427a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
