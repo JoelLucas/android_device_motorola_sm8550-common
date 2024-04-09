@@ -52,6 +52,24 @@
       "parentUuid": "c12d6e23_7d78f3ef",
       "revId": "87acbff7c46bf33571d6594ffa7752f54982427a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "77216e5e_972b1bd3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-04-09T12:02:34Z",
+      "side": 1,
+      "message": "The solution is to properly reimplement the function, see how we do it at hardware/lineage/compat",
+      "parentUuid": "a71ebe60_424c5ce0",
+      "revId": "87acbff7c46bf33571d6594ffa7752f54982427a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
