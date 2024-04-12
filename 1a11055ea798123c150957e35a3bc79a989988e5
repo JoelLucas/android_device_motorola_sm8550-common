@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "559af2a0_c26bbdce",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 555,
+      "author": {
+        "id": 16779
+      },
+      "writtenOn": "2024-04-12T19:12:41Z",
+      "side": 0,
+      "message": "Unrelated",
+      "range": {
+        "startLine": 555,
+        "startChar": 4,
+        "endLine": 555,
+        "endChar": 28
+      },
+      "revId": "1a11055ea798123c150957e35a3bc79a989988e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
