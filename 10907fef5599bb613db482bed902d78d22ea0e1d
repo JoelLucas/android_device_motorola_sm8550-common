@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c32f5a1_ab034ac3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-04-12T23:48:14Z",
+      "side": 1,
+      "message": "Unfortunately this didn\u0027t fix it on rtwo... users with SMS issues said they still have to toggle airplane mode or reinsert SIM after a system reboot...",
+      "revId": "10907fef5599bb613db482bed902d78d22ea0e1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
