@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8460104c_5d8cf6da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-05-02T04:22:52Z",
+      "side": 1,
+      "message": "hand a handful of users with the SMS can\u0027t receive bug on rtwo confirm doing multiple reboots that this fix works for them",
+      "revId": "f4d3bac38684608a377c79fc2f0f2816eb88a1ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
