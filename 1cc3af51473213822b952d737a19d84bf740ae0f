@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d8076e0_ed9e49fe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-05-06T09:48:46Z",
+      "side": 1,
+      "message": "nope, this seems to break sim on RETEU variants... oof.",
+      "revId": "1cc3af51473213822b952d737a19d84bf740ae0f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
