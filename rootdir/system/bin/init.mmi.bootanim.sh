@@ -6,5 +6,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+sleep 3
 stop bootanim
+sleep 1
 start bootanim
