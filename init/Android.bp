@@ -51,20 +51,6 @@ prebuilt_etc {
     recovery: true,
 }
 
-prebuilt_etc {
-    name: "init.qti.kernel.rc",
-    src: "init.qti.kernel.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.qti.qcv.rc",
-    src: "init.qti.qcv.rc",
-    sub_dir: "init",
-    vendor: true,
-}
-
 prebuilt_root {
     name: "init.system.qcom.rc",
     filename: "init.qcom.rc",
@@ -89,36 +75,6 @@ prebuilt_etc {
 sh_binary {
     name: "init.class_main.sh",
     src: "init.class_main.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-kalama_3_2_1.sh",
-    src: "init.kernel.post_boot-kalama_3_2_1.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-kalama_3_4_0.sh",
-    src: "init.kernel.post_boot-kalama_3_4_0.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-kalama_default_3_4_1.sh",
-    src: "init.kernel.post_boot-kalama_default_3_4_1.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-kalama.sh",
-    src: "init.kernel.post_boot-kalama.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot.sh",
-    src: "init.kernel.post_boot.sh",
     vendor: true,
 }
 
@@ -170,43 +126,13 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.qcom.sensors.sh",
-    src: "init.qcom.sensors.sh",
-    vendor: true,
-}
-
-sh_binary {
     name: "init.qcom.sh",
     src: "init.qcom.sh",
     vendor: true,
 }
 
 sh_binary {
-    name: "init.qti.kernel.sh",
-    src: "init.qti.kernel.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qti.qcv.sh",
-    src: "init.qti.qcv.sh",
-    vendor: true,
-}
-
-sh_binary {
     name: "init.qti.write.sh",
     src: "init.qti.write.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "system_dlkm_modprobe.sh",
-    src: "system_dlkm_modprobe.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "vendor_modprobe.sh",
-    src: "vendor_modprobe.sh",
     vendor: true,
 }

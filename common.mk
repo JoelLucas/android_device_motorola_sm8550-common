@@ -175,17 +175,10 @@ PRODUCT_PACKAGES += \
     init.mmi.rc \
     init.qcom.rc \
     init.qcom.recovery.rc \
-    init.qti.kernel.rc \
-    init.qti.qcv.rc \
     init.system.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc \
     init.class_main.sh \
-    init.kernel.post_boot-kalama_3_2_1.sh \
-    init.kernel.post_boot-kalama_3_4_0.sh \
-    init.kernel.post_boot-kalama_default_3_4_1.sh \
-    init.kernel.post_boot-kalama.sh \
-    init.kernel.post_boot.sh \
     init.mmi.bootanim.sh \
     init.mmi.boot.sh \
     init.mmi.cap.sh \
@@ -194,13 +187,8 @@ PRODUCT_PACKAGES += \
     init.qcom.class_core.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
-    init.qcom.sensors.sh \
     init.qcom.sh \
-    init.qti.kernel.sh \
-    init.qti.qcv.sh \
-    init.qti.write.sh \
-    system_dlkm_modprobe.sh \
-    vendor_modprobe.sh
+    init.qti.write.sh
 
 # IPACM
 PRODUCT_PACKAGES += \
