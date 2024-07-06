@@ -834,11 +834,6 @@ vendor/lib64/libqnnengine.so
 # OEM
 vendor/bin/motobox;SYMLINK=vendor/bin/expat
 
-# OMX
-vendor/lib64/libAlacSwDec.so
-vendor/lib64/libApeSwDec.so
-vendor/lib64/libFlacSwDec.so
-
 # PD
 vendor/bin/pd-mapper
 vendor/lib64/libpdmapper.so
