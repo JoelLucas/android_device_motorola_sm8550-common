@@ -139,6 +139,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.aon@1.3.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/system_privapp-permissions-qti-snapcam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/system_privapp-permissions-qti-snapcam.xml
+
 # Charger
 WITH_LINEAGE_CHARGER := false
 
