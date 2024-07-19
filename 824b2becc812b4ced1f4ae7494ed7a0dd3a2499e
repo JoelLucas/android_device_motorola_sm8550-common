@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0737ce1_10731dc2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-07-19T04:00:14Z",
+      "side": 1,
+      "message": "as of QPR3 on rtwo\n\nF linker  : CANNOT LINK EXECUTABLE \"/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service\": library \"vendor.qti.hardware.capabilityconfigstore@1.0.so\" not found: needed by main executable",
+      "revId": "824b2becc812b4ced1f4ae7494ed7a0dd3a2499e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
