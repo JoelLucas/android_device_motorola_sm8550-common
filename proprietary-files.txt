@@ -926,7 +926,6 @@ system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/hw/qcrilNrd
 vendor/bin/dlsc
 vendor/bin/ks
-vendor/bin/mbm_spy
 vendor/bin/qms
 vendor/bin/qtigetprop
 vendor/bin/qtisetprop
