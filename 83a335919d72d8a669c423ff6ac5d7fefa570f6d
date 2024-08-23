@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13428d79_beba4d63",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-08-23T17:11:29Z",
+      "side": 1,
+      "message": "WIP, probably need to change the path as the symlink for /sys/class/power_supply/battery/device takes a while and can take longer than the 5 seconds for the wait command",
+      "revId": "83a335919d72d8a669c423ff6ac5d7fefa570f6d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
