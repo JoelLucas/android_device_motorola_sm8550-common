@@ -7,6 +7,9 @@ audio.sys.routing.latency=0
 ro.audio.monitorWindowRotation=true
 ro.audio.relative_volume=true
 
+# e-SIM
+masterclear.allow_retain_esim_profiles_after_fdr=true
+
 # Media
 media.stagefright.audio.deep=false
 
