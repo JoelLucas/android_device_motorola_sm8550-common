@@ -63,4 +63,11 @@
     <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
+
+    <string-array name="config_telephonyEuiccDeviceCapabilities" translatable="false">
+        <item>gsm,11</item>
+        <item>utran,9</item>
+        <item>eutran,15</item>
+        <item>nfc,0</item>
+    </string-array>
 </resources>
