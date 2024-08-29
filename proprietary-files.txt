@@ -516,7 +516,6 @@ vendor/lib64/liblocation_api.so
 vendor/lib64/liblocation_api_msg.so
 vendor/lib64/liblocation_client_api.so
 vendor/lib64/liblocation_integration_api.so
-vendor/lib64/liblocation_qesdk.so
 vendor/lib64/liblocationservice.so
 vendor/lib64/liblocationservice_glue.so
 vendor/lib64/liblocdiagiface.so
@@ -880,7 +879,6 @@ vendor/lib64/libqti-iopd-client.so
 vendor/lib64/libqti-iopd.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
-vendor/lib64/libqti-qesdk-secure.so
 vendor/lib64/libqti-util.so
 vendor/lib64/libqti-utils.so
 vendor/lib64/libsilkyscrolls.so
@@ -926,19 +924,6 @@ vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.2.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so
-
-# QESDK
-vendor/bin/qesdk-manager
-vendor/etc/init/qesdk-manager.rc
-vendor/etc/seccomp_policy/qesdk.policy
-vendor/lib64/libqesdk2_0.so
-vendor/lib64/libqesdk_manager.so
-vendor/lib64/vendor.qti.qesdhal@1.0.so
-vendor/lib64/vendor.qti.qesdhal@1.1.so
-vendor/lib64/vendor.qti.qesdhal@1.2.so
-vendor/lib64/vendor.qti.qesdhal@1.3-impl.so
-vendor/lib64/vendor.qti.qesdhal@1.3.so
-vendor/lib64/vendor.qti.qesdsys-V3-ndk.so
 
 # QCV
 vendor/bin/init.qti.qcv.sh
