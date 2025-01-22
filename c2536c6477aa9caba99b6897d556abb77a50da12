@@ -16,6 +16,23 @@
       "message": "works well, but requires frameworks dependency commit merged from same topic",
       "revId": "c2536c6477aa9caba99b6897d556abb77a50da12",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1246d205_c1184b39",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-01-22T22:35:21Z",
+      "side": 1,
+      "message": "works well on rtwo and tundra and will probably work for a lot more Motorola devices especially",
+      "revId": "c2536c6477aa9caba99b6897d556abb77a50da12",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
