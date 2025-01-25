@@ -151,6 +151,7 @@ BOARD_USES_ALSA_AUDIO := true
 TARGET_PROVIDES_AUDIO_HAL := true
 TARGET_PROVIDES_LIBAGM := true
 TARGET_PROVIDES_LIBAR_PAL := true
+TARGET_PAL_SPKR_PROTECTION_PATH1 := /mnt/vendor/persist/factory/audio/audio.cal
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
