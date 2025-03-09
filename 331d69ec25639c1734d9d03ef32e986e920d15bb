@@ -46,6 +46,30 @@
       },
       "revId": "331d69ec25639c1734d9d03ef32e986e920d15bb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a57ddcbf_569c58d6",
+        "filename": "Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-03-09T20:14:20Z",
+      "side": 1,
+      "message": "Ok, removed it, but leaving the CR-2 as it\u0027ll require the commit I linked to be resolved too",
+      "parentUuid": "97258c53_206f3964",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 6
+      },
+      "revId": "331d69ec25639c1734d9d03ef32e986e920d15bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
