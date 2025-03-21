@@ -104,10 +104,7 @@ TARGET_KERNEL_EXT_MODULES := \
     motorola/drivers/misc/sx937x_multi \
     motorola/drivers/input/touchscreen/touchscreen_mmi \
     motorola/drivers/input/touchscreen/goodix_berlin_mmi \
-    motorola/drivers/input/misc/goodix_fod_mmi \
-    motorola/drivers/moto_mm \
-    motorola/drivers/moto_mmap_fault \
-    motorola/drivers/moto_swap
+    motorola/drivers/input/misc/goodix_fod_mmi
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
