@@ -263,7 +263,4 @@ wl2868c.ko
 goodix_fod_mmi.ko
 qpnp_adaptive_charge.ko
 mmi_sys_temp.ko
-moto_mm.ko
-moto_swap.ko
-moto_mmap_fault.ko
 msm_kgsl.ko
