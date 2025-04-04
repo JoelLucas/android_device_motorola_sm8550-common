@@ -32,8 +32,5 @@ on property:sys.boot_completed=1 && property:ro.vendor.build.motfactory=1
     write /sys/class/power_supply/battery/device/factory_image_mode 1
     chown system system /sys/class/power_supply/battery/device/force_charger_suspend
 
-on property:ro.build.type=userdebug
-    insmod /vendor/lib/modules/watchdogtest.ko
-
 on init
     write /sys/kernel/cnss/recovery 1
