@@ -16,6 +16,24 @@
       "message": "https://github.com/LineageOS/android_device_motorola_rtwo/blob/b25f45b21fd27d7444db3546e1e2d6ef099522d1/lineage_rtwo.mk#L7",
       "revId": "d39ba63f85e68078456a813ef6231abaaa345348",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7bb77a0_fbd6dc7e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-04-15T10:57:43Z",
+      "side": 1,
+      "message": "Rtwo had previously added patches for the 64-bit-only transition, but for some reason, he didn’t follow through. I hadn’t realized that Marc had reintroduced and merged them. So it\u0027s now 64-bit by default. Thanks!",
+      "parentUuid": "ed35b7f8_5232d9eb",
+      "revId": "d39ba63f85e68078456a813ef6231abaaa345348",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
