@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed35b7f8_5232d9eb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-04-15T09:28:27Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_device_motorola_rtwo/blob/b25f45b21fd27d7444db3546e1e2d6ef099522d1/lineage_rtwo.mk#L7",
+      "revId": "d39ba63f85e68078456a813ef6231abaaa345348",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
