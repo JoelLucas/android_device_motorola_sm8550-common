@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3aec1ee_a946c2d8",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 633,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-04-19T15:47:12Z",
+      "side": 0,
+      "message": "Shouldn\u0027t it be removed?\n\nAlso \nhttps://github.com/TheMuppets/proprietary_vendor_motorola_sm8550-common/blob/4f1fdae80f6241cf0cd177589e1a06f5fba95a4d/sm8550-common-vendor.mk#L312",
+      "revId": "1f70e7c7e9fa086ca502c61111c8ac3c00833124",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
