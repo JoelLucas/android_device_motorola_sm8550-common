@@ -16,6 +16,24 @@
       "message": "Shouldn\u0027t it be removed?\n\nAlso \nhttps://github.com/TheMuppets/proprietary_vendor_motorola_sm8550-common/blob/4f1fdae80f6241cf0cd177589e1a06f5fba95a4d/sm8550-common-vendor.mk#L312",
       "revId": "1f70e7c7e9fa086ca502c61111c8ac3c00833124",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ff8390f_2625d596",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 633,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-04-21T03:39:01Z",
+      "side": 0,
+      "message": "That was removed in a future commit but I can fixup the GPU firmware file thanks",
+      "parentUuid": "f3aec1ee_a946c2d8",
+      "revId": "1f70e7c7e9fa086ca502c61111c8ac3c00833124",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
