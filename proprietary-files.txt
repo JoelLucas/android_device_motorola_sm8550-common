@@ -904,6 +904,10 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|bccf8a1c7f72d6ac6237da9e6358dfd431ce0118
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|e53ebd67415a6e8ec23a8476a5cbb035cc84664b
 
+# Public libraries
+system_ext/etc/public.libraries-qti.txt
+vendor/etc/public.libraries.txt
+
 # QCC - System
 system_ext/bin/qccsyshal@1.2-service
 system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc
