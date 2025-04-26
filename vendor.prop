@@ -335,6 +335,7 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 persist.vendor.sensors.debug.hal=0
 
 # USB
+ro.usb.uvc.disable_video_encode_flag=true
 ro.usb.uvc.enabled=true
 sys.usb.mtp.batchcancel=1
 sys.usb.mtp.device_type=3
