@@ -141,7 +141,6 @@ vendor/lib64/motorola.hardware.audio.radar@1.0.so
 # Audio - soundfx
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libaudiopreprocessing.so
-vendor/lib64/soundfx/libbc360.so;FIX_SONAME
 vendor/lib64/soundfx/libbundlewrapper.so
 vendor/lib64/soundfx/libdownmix.so
 vendor/lib64/soundfx/libdynproc.so
