@@ -22,6 +22,30 @@
       },
       "revId": "5c1375e063c861e01c99f8daa95bcebda70aa2ea",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e205175_1675b8b4",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-04-29T13:10:25Z",
+      "side": 1,
+      "message": "thanks for the review! Tbh I copy/pasted from oneplus sm8550-common so I must have grabbed both entries from them",
+      "parentUuid": "f1851093_994372cc",
+      "range": {
+        "startLine": 94,
+        "startChar": 4,
+        "endLine": 94,
+        "endChar": 122
+      },
+      "revId": "5c1375e063c861e01c99f8daa95bcebda70aa2ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
