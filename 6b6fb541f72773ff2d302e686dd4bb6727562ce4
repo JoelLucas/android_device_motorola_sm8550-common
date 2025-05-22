@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b173b2c_bfc4f4d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-05-22T07:49:18Z",
+      "side": 1,
+      "message": "Works good, requires dependency commit topic merged first\n\nhttps://review.lineageos.org/q/topic:%22oss-audioreach-kalama%22",
+      "revId": "6b6fb541f72773ff2d302e686dd4bb6727562ce4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
