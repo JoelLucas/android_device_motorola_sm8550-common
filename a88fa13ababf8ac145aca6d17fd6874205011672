@@ -16,6 +16,24 @@
       "message": "Derp",
       "revId": "a88fa13ababf8ac145aca6d17fd6874205011672",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e791366_9b1a4467",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 794,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-05-30T15:11:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b9653fb1_cbde78d2",
+      "revId": "a88fa13ababf8ac145aca6d17fd6874205011672",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
