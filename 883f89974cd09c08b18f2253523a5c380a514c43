@@ -16,6 +16,23 @@
       "message": "I haven\u0027t checked on the 8550, but it seems there should be more subsystems. On the 8250, there are subsys0 to subsys11.",
       "revId": "883f89974cd09c08b18f2253523a5c380a514c43",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c5ded62_3120d9de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-06-02T04:35:16Z",
+      "side": 1,
+      "message": "Hmm, seems like /sys/bus/msm_subsys path doesn\u0027t exist on rtwo",
+      "revId": "883f89974cd09c08b18f2253523a5c380a514c43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
