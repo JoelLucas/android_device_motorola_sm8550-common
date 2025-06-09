@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc0c696b_b898391b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-06-09T02:17:45Z",
+      "side": 1,
+      "message": "It doesn\u0027t seem to stop charging when using QuickCharge, which is the same issue as the current force_charger_suspend",
+      "revId": "0e5b7e5a2d08a09c5373cfe5c948574e266c5279",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
