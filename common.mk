@@ -216,13 +216,9 @@ PRODUCT_PACKAGES += \
     vendor_super_modem_mountpoint
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
-PRODUCT_ENFORCE_RRO_TARGETS := *
-
 PRODUCT_PACKAGES += \
     FrameworksResCommon \
+    LineageSdkCommon \
     SystemUIResCommon \
     TelephonyResCommon \
     WifiResCommon \
