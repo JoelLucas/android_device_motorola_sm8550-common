@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe432886_197ddde4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-06-24T04:02:16Z",
+      "side": 1,
+      "message": "I haven\u0027t seen extract-files have an update to fix this apktool issue, so I\u0027ll merge this. If it gets fixed in the future I can revert it",
+      "revId": "678cc5447689c146d832783625cfaa747bbbf5af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
