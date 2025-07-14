@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd50033d_609d4668",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-07-14T04:40:17Z",
+      "side": 1,
+      "message": "maybe I\u0027m missing something, but I don\u0027t see anything else starting vendor.qcrild on my rtwo with this commit. I\u0027ll have to check if there\u0027s something else I need",
+      "revId": "0c1ca67a60e4a3f17769e176d21e75077835677b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
