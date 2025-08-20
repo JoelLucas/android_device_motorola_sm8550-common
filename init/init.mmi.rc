@@ -17,6 +17,12 @@ on init
     chown system log /proc/driver/mmi_annotate
     chmod 0640 /proc/driver/mmi_annotate
 
+    # LiveDisplay sysfs
+    chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_hbm
+    chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_hbm
+    chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_dc
+    chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_dc
+
 on early-init && property:ro.bootmode=mot-factory
     setprop ro.vendor.mot.factory true
 
