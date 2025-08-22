@@ -16,6 +16,23 @@
       "message": "Why are you disabling it now?",
       "revId": "a6fe4c006dad29053bab873331ba36e935cf3b05",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1346073f_c6c174fe",
+        "filename": "sepolicy/vendor/file_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-08-22T09:55:40Z",
+      "side": 1,
+      "message": "Isn\u0027t it labeled in hw/moto?",
+      "revId": "a6fe4c006dad29053bab873331ba36e935cf3b05",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
