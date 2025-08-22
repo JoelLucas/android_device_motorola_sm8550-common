@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a361c764_4252813c",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 234,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-08-22T09:50:26Z",
+      "side": 1,
+      "message": "Why are you disabling it now?",
+      "revId": "a6fe4c006dad29053bab873331ba36e935cf3b05",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
