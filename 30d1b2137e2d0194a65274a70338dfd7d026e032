@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c39a5552_f17d0f99",
+        "filename": "init/init.mmi.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-08-30T09:14:53Z",
+      "side": 1,
+      "message": "These belong to service init rc.",
+      "revId": "30d1b2137e2d0194a65274a70338dfd7d026e032",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
