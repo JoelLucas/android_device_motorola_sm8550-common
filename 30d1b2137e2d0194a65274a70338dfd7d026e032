@@ -16,6 +16,24 @@
       "message": "These belong to service init rc.",
       "revId": "30d1b2137e2d0194a65274a70338dfd7d026e032",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5bfe482d_eba26740",
+        "filename": "init/init.mmi.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-08-30T14:40:41Z",
+      "side": 1,
+      "message": "Hmm, I see what you mean, but maybe we should add the chmods to the service init rc too then? For me AF and SE toggles don\u0027t work without it",
+      "parentUuid": "c39a5552_f17d0f99",
+      "revId": "30d1b2137e2d0194a65274a70338dfd7d026e032",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
