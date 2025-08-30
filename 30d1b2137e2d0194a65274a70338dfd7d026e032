@@ -106,6 +106,24 @@
       "parentUuid": "977da92e_99e301ac",
       "revId": "30d1b2137e2d0194a65274a70338dfd7d026e032",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9fc9f4ac_70288ddc",
+        "filename": "init/init.mmi.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-08-30T16:44:40Z",
+      "side": 1,
+      "message": "You\u0027re right Luk, changing it to on init fixes it for rtwo\nhttps://review.lineageos.org/c/LineageOS/android_hardware_lineage_interfaces/+/447696",
+      "parentUuid": "756057f9_be6e268b",
+      "revId": "30d1b2137e2d0194a65274a70338dfd7d026e032",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
