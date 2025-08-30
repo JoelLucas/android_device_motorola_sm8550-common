@@ -88,6 +88,24 @@
       "parentUuid": "65ce7f0a_9d35c0bf",
       "revId": "30d1b2137e2d0194a65274a70338dfd7d026e032",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "756057f9_be6e268b",
+        "filename": "init/init.mmi.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-08-30T14:54:42Z",
+      "side": 1,
+      "message": "uh, so chown is too late? what if you change early-init to init in livedisplay sysfs rc?",
+      "parentUuid": "977da92e_99e301ac",
+      "revId": "30d1b2137e2d0194a65274a70338dfd7d026e032",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
