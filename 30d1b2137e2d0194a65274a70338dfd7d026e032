@@ -34,6 +34,24 @@
       "parentUuid": "c39a5552_f17d0f99",
       "revId": "30d1b2137e2d0194a65274a70338dfd7d026e032",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a51461d_6c0aea2d",
+        "filename": "init/init.mmi.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-08-30T14:49:35Z",
+      "side": 1,
+      "message": "Yes, I meant all these perms.",
+      "parentUuid": "5bfe482d_eba26740",
+      "revId": "30d1b2137e2d0194a65274a70338dfd7d026e032",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
