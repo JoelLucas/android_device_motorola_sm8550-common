@@ -70,6 +70,24 @@
       "parentUuid": "5bfe482d_eba26740",
       "revId": "30d1b2137e2d0194a65274a70338dfd7d026e032",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "977da92e_99e301ac",
+        "filename": "init/init.mmi.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-08-30T14:52:38Z",
+      "side": 1,
+      "message": "should be 644, unless this is broken I guess? https://github.com/LineageOS/android_kernel_motorola_sm8550-modules/blob/lineage-22.2/qcom/opensource/display-drivers/msm/dsi/dsi_panel.c#L4991",
+      "parentUuid": "65ce7f0a_9d35c0bf",
+      "revId": "30d1b2137e2d0194a65274a70338dfd7d026e032",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
