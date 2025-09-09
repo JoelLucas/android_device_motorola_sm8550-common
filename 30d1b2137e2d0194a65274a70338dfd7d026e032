@@ -124,6 +124,24 @@
       "parentUuid": "756057f9_be6e268b",
       "revId": "30d1b2137e2d0194a65274a70338dfd7d026e032",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b453ef6_053a5269",
+        "filename": "init/init.mmi.rc",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-09-09T03:36:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9fc9f4ac_70288ddc",
+      "revId": "30d1b2137e2d0194a65274a70338dfd7d026e032",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
