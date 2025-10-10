@@ -34,6 +34,24 @@
       "parentUuid": "64345acf_68e44571",
       "revId": "0be0e56f26c3ae307d1199b4f7e042abf8860297",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49f6a81c_2ee89206",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16908
+      },
+      "writtenOn": "2025-10-10T01:43:46Z",
+      "side": 1,
+      "message": "try this?\nhttps://github.com/yaap/kernel_oneplus_sm8650/pull/1/commits",
+      "parentUuid": "ed56e2a7_80c90320",
+      "revId": "0be0e56f26c3ae307d1199b4f7e042abf8860297",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
