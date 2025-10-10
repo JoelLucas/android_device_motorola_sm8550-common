@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae61947b_6c738ea2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-10-10T01:15:34Z",
+      "side": 1,
+      "message": "this is device-specific, make sure you do it based on your device\u0027s test results\n(and don\u0027t forget to update the commit message correspondingly too)",
+      "revId": "e0c0affda58e37a834fab0f89bb288d9e32ec6ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
