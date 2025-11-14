@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b771fa1b_ea6b4fb5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-11-14T18:41:25Z",
+      "side": 1,
+      "message": "I\u0027m happy, just needs dependency in hardware/motorola merged first",
+      "revId": "ffb638152afa7c2540fdc93311129ef23cb7fc30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
