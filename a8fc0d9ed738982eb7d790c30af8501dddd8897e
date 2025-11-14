@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "947d2dd1_3f166930",
+        "filename": "sepolicy/vendor/file_contexts",
+        "patchSetId": 6
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-11-14T13:20:13Z",
+      "side": 1,
+      "message": "This is already present in moto sepolicy",
+      "revId": "a8fc0d9ed738982eb7d790c30af8501dddd8897e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
