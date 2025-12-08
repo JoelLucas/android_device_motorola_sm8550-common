@@ -16,6 +16,23 @@
       "message": "I\u0027m happy, just needs dependency in hardware/motorola merged first",
       "revId": "ffb638152afa7c2540fdc93311129ef23cb7fc30",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9803d521_562d2213",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-12-08T00:47:36Z",
+      "side": 1,
+      "message": "Dependency is merged",
+      "revId": "ffb638152afa7c2540fdc93311129ef23cb7fc30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
