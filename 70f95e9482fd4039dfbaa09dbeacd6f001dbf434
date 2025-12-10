@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c98b114_54b6f6fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-12-10T01:56:04Z",
+      "side": 1,
+      "message": "Fixes calls not ringing on Bluetooth devices",
+      "revId": "70f95e9482fd4039dfbaa09dbeacd6f001dbf434",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
