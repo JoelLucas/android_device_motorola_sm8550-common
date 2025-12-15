@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2c6fb95_502bac2c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-12-15T14:55:03Z",
+      "side": 1,
+      "message": "themard@themard-VirtualBox:~/android/lineage-23/out/target/product/rtwo/vendor/lib64$ strings libar-pal.so | grep audio.cal\n/mnt/vendor/persist/factory/audio/audio.cal",
+      "revId": "408138646895e94047e7135843540ba254adfd34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
