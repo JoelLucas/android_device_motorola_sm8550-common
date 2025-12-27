@@ -16,6 +16,24 @@
       "message": "This line needs to get removed since we are deleting the hals.conf in the device tree, but we still need to include a hals.conf somewhere and I don\u0027t see it in the hardware/motorola repo either though",
       "revId": "6978ad164e76f83c7aed695039aa4875667b655c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "13783c4b_ff276673",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 345,
+      "author": {
+        "id": 33800
+      },
+      "writtenOn": "2025-12-27T08:09:52Z",
+      "side": 1,
+      "message": "Removing hals.conf was made by mistake.",
+      "parentUuid": "6864cf4c_4da2374e",
+      "revId": "6978ad164e76f83c7aed695039aa4875667b655c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
