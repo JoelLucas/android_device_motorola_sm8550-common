@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd01f9c8_c64c1e70",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-01-04T04:26:41Z",
+      "side": 1,
+      "message": "works on rtwo, needs dependency commits merged in hardware/motorola first",
+      "revId": "1a4ab851821ad1e510e435933376b91f6bd0986d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
