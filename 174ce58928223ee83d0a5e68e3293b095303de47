@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "599735ab_a099feb6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-01-17T16:24:41Z",
+      "side": 1,
+      "message": "With that flag, I was getting build errors like this:\n\nhttps://gist.github.com/ThEMarD/4bf88a23f19732f0dace89e6bf376b5e",
+      "revId": "174ce58928223ee83d0a5e68e3293b095303de47",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
