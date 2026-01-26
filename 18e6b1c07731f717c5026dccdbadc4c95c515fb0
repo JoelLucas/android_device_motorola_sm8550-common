@@ -16,6 +16,29 @@
       "message": "needs dependency commit from the same topic merged first",
       "revId": "18e6b1c07731f717c5026dccdbadc4c95c515fb0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1701c14_2ff64481",
+        "filename": "common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-26T22:17:32Z",
+      "side": 1,
+      "message": "set_bool?!?",
+      "range": {
+        "startLine": 109,
+        "startChar": 7,
+        "endLine": 109,
+        "endChar": 28
+      },
+      "revId": "18e6b1c07731f717c5026dccdbadc4c95c515fb0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
