@@ -39,6 +39,30 @@
       },
       "revId": "18e6b1c07731f717c5026dccdbadc4c95c515fb0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2e12535_6f17d953",
+        "filename": "common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-26T22:41:53Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_motorola_sm8550-common/+/471125",
+      "parentUuid": "c1701c14_2ff64481",
+      "range": {
+        "startLine": 109,
+        "startChar": 7,
+        "endLine": 109,
+        "endChar": 28
+      },
+      "revId": "18e6b1c07731f717c5026dccdbadc4c95c515fb0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
