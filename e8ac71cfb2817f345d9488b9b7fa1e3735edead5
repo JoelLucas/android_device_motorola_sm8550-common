@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "038e9750_34e08988",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-01-26T22:38:16Z",
+      "side": 1,
+      "message": "I shouldn\u0027t gerrit right after I wake up, thanks for the help Bruno",
+      "revId": "e8ac71cfb2817f345d9488b9b7fa1e3735edead5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
