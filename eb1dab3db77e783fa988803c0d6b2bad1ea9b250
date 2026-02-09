@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48cffb42_eb038012",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-02-09T15:01:07Z",
+      "side": 1,
+      "message": "Workaround is fine for now until a better solution becomes available",
+      "revId": "eb1dab3db77e783fa988803c0d6b2bad1ea9b250",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
