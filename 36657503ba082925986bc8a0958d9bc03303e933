@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0701d54_18ec310e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-02-26T19:41:07Z",
+      "side": 1,
+      "message": "checked out to patchset 2 of\nhttps://review.lineageos.org/c/LineageOS/scripts/+/475530\n\nthemard@themard-vmware:~/android/lineage-23.2/lineage/scripts/dev$ ./beautify_rro.py ~/android/lineage-23.2/device/motorola/sm8550-common/resource-overlay/\nFailed to find filegroup generate_priv_manifest\nFailed to find package name for app CtsShimPriv\nFailed to find filegroup NetworkStackTestAndroidManifest\nFailed to find package name for app TestNetworkStack\ncom.android.systemui.overlay.common: found multiple matches for com.android.systemui:\nSystemUI, CarSystemUI, TvSystemUI, SystemUIGo, CarDistantDisplaySystemUI\ncom.android.systemui.overlay.common: picked SystemUI",
+      "revId": "36657503ba082925986bc8a0958d9bc03303e933",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
