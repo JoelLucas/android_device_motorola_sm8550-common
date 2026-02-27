@@ -155,6 +155,12 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor
 
+# CACert
+vendor/app/CACertService/CACertService.apk
+vendor/lib64/libcacertclient.so
+vendor/lib64/libjnihelper.so
+vendor/lib64/vendor.qti.hardware.cacert@1.0.so
+
 # Camera - ICP
 vendor/firmware/CAMERA_ICP.b00
 vendor/firmware/CAMERA_ICP.b01
@@ -201,7 +207,6 @@ vendor/bin/charge_only_mode
 vendor/etc/charger_fw_fstab.qti
 
 # CNE
-vendor/app/CACertService/CACertService.apk
 vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_vendor_symlink
 vendor/app/IWlanService/IWlanService.apk
 vendor/bin/cnd
@@ -243,7 +248,6 @@ vendor/lib64/libcne.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libcneoplookup.so
 vendor/lib64/libcneqmiutils.so
-vendor/lib64/libjnihelper.so
 vendor/lib64/libmasc.so
 vendor/lib64/libshsc.so
 vendor/lib64/libwms.so
@@ -260,7 +264,6 @@ vendor/lib64/vendor.qti.data.factory@2.6.so
 vendor/lib64/vendor.qti.data.factory@2.7.so
 vendor/lib64/vendor.qti.data.mwqem@1.0.so
 vendor/lib64/vendor.qti.data.slm@1.0.so
-vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so
 vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so
 vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so
@@ -493,7 +496,6 @@ vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml
 vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml
 vendor/lib64/hw/android.hardware.gnss-aidl-impl-qti.so
 vendor/lib64/libbatching.so
-vendor/lib64/libcacertclient.so
 vendor/lib64/libcdfw.so
 vendor/lib64/libcdfw_remote_api.so
 vendor/lib64/libdataitems.so
