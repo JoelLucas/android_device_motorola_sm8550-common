@@ -16,6 +16,24 @@
       "message": "depends on https://review.lineageos.org/c/LineageOS/android_vendor_qcom_opensource_arpal-lx/+/436944",
       "revId": "0c1e7129c6a82633e8cd6dc3b323658dfab68e56",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ff4ce8e_ed1e68e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-02-28T18:28:22Z",
+      "side": 1,
+      "message": "sm8550 arpal-lx seems to be missing a commit from sm8450\u0027s variant that the commit you link depends on. I cherry-picked this stuff from sm7435 and tbh didn\u0027t check, so I\u0027ll probably leave this commit off for now unless I actually seem to need this stuff at some point",
+      "parentUuid": "8b719d81_87523391",
+      "revId": "0c1e7129c6a82633e8cd6dc3b323658dfab68e56",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
