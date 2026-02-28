@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b719d81_87523391",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36466
+      },
+      "writtenOn": "2026-02-28T15:12:44Z",
+      "side": 1,
+      "message": "depends on https://review.lineageos.org/c/LineageOS/android_vendor_qcom_opensource_arpal-lx/+/436944",
+      "revId": "0c1e7129c6a82633e8cd6dc3b323658dfab68e56",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
