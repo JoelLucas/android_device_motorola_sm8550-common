@@ -354,18 +354,8 @@ vendor/lib64/libhdrdynamic.so
 vendor/lib64/libhdrdynamicootf.so
 
 # Display - HWC
-vendor/bin/qdcmss
-vendor/etc/init/qdcmss.rc
-vendor/etc/snapdragon_color_libs_config.xml
-vendor/lib64/libdpps.so
-vendor/lib64/libgame_enhance.so
 vendor/lib64/libmemutils.so
-vendor/lib64/libqdcm-algo.so
-vendor/lib64/libqdcm-json-mode-parser.so
-vendor/lib64/libqdcm-mode-parser.so
-vendor/lib64/libsnapdragoncolor-manager.so
-vendor/lib64/libsnapdragoncolor-qdcm.so
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
+vendor/lib64/libvmmem.so
 
 # Display - SDM
 vendor/etc/display/DPU660.xml
@@ -379,15 +369,12 @@ vendor/etc/display/DPU9__.xml
 vendor/etc/display/advanced_sf_offsets.xml
 vendor/etc/display/thermallevel_to_fps.xml
 vendor/etc/clstc_config_library.xml
-vendor/lib64/libbacklight-calib.so
 vendor/lib64/libclstc_algorithm_adapter.so
 vendor/lib64/libclstc_gcp_adapter.so
 vendor/lib64/libclstc_tm.so
-vendor/lib64/libdigital-dimming.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libfeutils.so
-vendor/lib64/libhdr_backlight_adapter.so
 vendor/lib64/libintervmipc.so
 vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libqrtrclient.so
@@ -405,8 +392,20 @@ vendor/lib64/libvmfilexfer.so
 # Display postprocessing
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/ppd
+vendor/bin/qdcmss
+vendor/etc/init/qdcmss.rc
 vendor/etc/init/vendor.display.color@1.0-service.rc
+vendor/etc/snapdragon_color_libs_config.xml
+vendor/lib64/libbacklight-calib.so
+vendor/lib64/libdigital-dimming.so
 vendor/lib64/libdisp-aba.so
+vendor/lib64/libhdr_backlight_adapter.so
+vendor/lib64/libdpps.so
+vendor/lib64/libqdcm-algo.so
+vendor/lib64/libqdcm-json-mode-parser.so
+vendor/lib64/libqdcm-mode-parser.so
+vendor/lib64/libsnapdragoncolor-manager.so
+vendor/lib64/libsnapdragoncolor-qdcm.so
 vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.color@1.2.so
@@ -773,9 +772,6 @@ vendor/etc/media_codecs_kalama_vendor.xml:vendor/etc/media_codecs_kalama.xml;TRY
 vendor/etc/media_codecs_performance_kalama_vendor.xml:vendor/etc/media_codecs_performance_kalama.xml;TRYSRCFIRST
 vendor/etc/media_profiles_V1_0.xml
 vendor/etc/media_profiles_kalama.xml
-
-# Memory
-vendor/lib64/libvmmem.so
 
 # Neural networks
 vendor/lib64/libCOSNet_spatial_qnn_quantized.so
