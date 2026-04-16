@@ -1193,6 +1193,9 @@ vendor/etc/init/init.spdaemon.rc
 vendor/bin/tftp_server
 vendor/etc/init/vendor.qti.tftp.rc
 
+# SSR
+vendor/bin/ssr_setup
+
 # Thermal engine
 vendor/bin/thermal-engine-v2
 vendor/etc/init/init_thermal-engine-v2.rc
