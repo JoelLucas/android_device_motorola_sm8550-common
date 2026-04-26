@@ -216,15 +216,16 @@ PRODUCT_PACKAGES += \
     vendor_super_modem_mountpoint
 
 # Overlays
+$(call inherit-product, hardware/qcom-caf/common/overlay/qssi/qssi.mk)
+
+TARGET_HAS_NO_QCOM_WFD := true
+
 PRODUCT_PACKAGES += \
     FrameworksResCommon \
     LineageSdkCommon \
     SystemUIResCommon \
-    TelephonyResCommon \
-    WifiResCommon \
     FrameworksResTarget \
-    NcmTetheringOverlay \
-    WifiResTarget
+    NcmTetheringOverlay
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
