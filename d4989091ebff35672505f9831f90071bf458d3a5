@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e01ee2e8_74575606",
+        "filename": "init/init.qcom.recovery.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 32837
+      },
+      "writtenOn": "2026-05-22T21:29:23Z",
+      "side": 1,
+      "message": "https://github.com/PixelOS-Devices/android_device_xiaomi_garnet/commit/ecd7653da3f2d270fbba9ab8b5e686bfda44b6e3",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 65
+      },
+      "revId": "d4989091ebff35672505f9831f90071bf458d3a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
