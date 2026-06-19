@@ -418,3 +418,5 @@ PRODUCT_PACKAGES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/sm8550-common/sm8550-common-vendor.mk)
+
+-include vendor/lineage-priv/keys/keys.mk
